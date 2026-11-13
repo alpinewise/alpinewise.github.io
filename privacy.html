@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AlpineWise Privacy Policy</title>
+  <meta name="description" content="How the AlpineWise app collects, uses and keeps your data.">
+  <style>
+    :root {
+      --bg: #f6f7f4;
+      --surface: #ffffff;
+      --text: #1d2420;
+      --muted: #56605a;
+      --accent: #2e6f4a;
+      --line: #dfe4dd;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #121614;
+        --surface: #1a201d;
+        --text: #e8ece9;
+        --muted: #a3ada6;
+        --accent: #7cc49b;
+        --line: #2b332e;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+    main { max-width: 680px; margin: 0 auto; padding: 48px 16px 64px; }
+    h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 8px; }
+    h2 { font-size: 1.15rem; margin: 0 0 8px; }
+    p, ul { margin: 0 0 12px; }
+    ul { padding-left: 1.2em; }
+    .lead { color: var(--muted); margin-bottom: 32px; }
+    section {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 16px;
+    }
+    .contact { border-color: var(--accent); }
+    .email { font-size: 1.15rem; font-weight: 600; }
+    a { color: var(--accent); }
+    footer { color: var(--muted); font-size: 0.9rem; margin-top: 32px; }
+    .meta { color: var(--muted); font-size: 0.95rem; margin-bottom: 32px; }
+    li { margin-bottom: 6px; }
+  </style>
+</head>
+<body>
+  <main>
+    <p><a href="./">← AlpineWise Support</a></p>
+    <h1>Privacy policy</h1>
+    <p class="meta">Effective November 13, 2026. This policy covers the AlpineWise iOS app and the AlpineWise service it uses.</p>
+
+    <section>
+      <h2>Who we are</h2>
+      <p>AlpineWise is operated by Jian Fang. Questions about this policy or your data go to <a href="mailto:johnfang.ai.agent@gmail.com">johnfang.ai.agent@gmail.com</a>.</p>
+      <p>We don't sell your data, we don't show ads, and the app contains no advertising, analytics or tracking code. We don't track you across other apps or websites.</p>
+    </section>
+
+    <section>
+      <h2>What we collect</h2>
+      <ul>
+        <li><strong>Your account.</strong> You sign in through Auth0. We keep your verified email address, the name your sign-in provider gives us, an account ID, when you signed in, and settings you choose, such as your experience level and pace.</li>
+        <li><strong>Trip plans.</strong> The route, area, dates and preferences you enter, the plans we make for you, your saved trips, and the follow-up questions you ask about a plan with their answers (the newest 20 per plan).</li>
+        <li><strong>GPS tracks you upload.</strong> We keep a simplified line of the track, its bounds and distance, and optionally its duration and the month it was recorded. We don't keep the file you uploaded or the times of its points.</li>
+        <li><strong>Your location, only for "near me".</strong> When you search near you, the app rounds your location to about 1 km before sending it. It is used for that search only, and it is never stored or logged.</li>
+        <li><strong>Community posts.</strong> Your public name, your comments, ticks, condition reports and corrections, your photos, the places you follow, the authors you block, the posts you report, and your notification settings. Photos have their location and other metadata removed, on your phone and again on our server.</li>
+        <li><strong>Push notifications.</strong> If you turn them on, your device's push token.</li>
+        <li><strong>Feedback and recommendations.</strong> Your feedback on plans, and which recommended routes you look at or save. Your history shapes your recommendations, or anyone else's, only if you turn that on in Settings.</li>
+        <li><strong>Server logs.</strong> Our servers record your IP address and the address of each request (without its search terms) to keep the service running and secure.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Who sees it</h2>
+      <ul>
+        <li><strong>Other climbers.</strong> Your posts, ticks, reports, corrections and photos are public to every signed-in AlpineWise user, under your public name. Your account name and email are never shown. A tick shows where you climbed and on which day.</li>
+        <li><strong>The AlpineWise catalog.</strong> If a moderator accepts your correction, or you choose to contribute a GPS track, it becomes part of the route catalog without your name. A contributed track has its ends cut off and its times removed.</li>
+        <li><strong>Service providers</strong> that do work for us:
+          <ul>
+            <li>Auth0, to sign you in;</li>
+            <li>an AI model provider (currently OpenAI), to write plans and answer follow-up questions. They receive the route, area, dates and plan details, your question with your recent questions about the same plan, the text of route searches, and, for feed summaries, the text of community posts without any author names;</li>
+            <li>weather and avalanche services (Open-Meteo, avalanche.org), web search providers and mapping-elevation services (the USGS and Natural Resources Canada). They receive route names, areas and route locations, and the points of tracks you upload, but never your own location or your name;</li>
+            <li>Apple, to deliver push notifications (they carry a fixed message, never the text of a post) and for the maps in the app;</li>
+            <li>cloud storage, for photos and encrypted backups.</li>
+          </ul>
+        </li>
+        <li><strong>The law.</strong> We may disclose information when the law requires it.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>How long we keep it</h2>
+      <ul>
+        <li>Your account, plans, saved trips, tracks and posts are kept until you delete them or your account.</li>
+        <li>Queued planning jobs are deleted after 7 days. Records of sent notifications are deleted after 7 days, and feed summaries after 3 days.</li>
+        <li>Backups are kept for about five weeks. Something you delete can stay in a backup until that backup expires. If a backup is ever restored, your deletions are applied again.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Deleting your data</h2>
+      <p>You can delete any of your posts or photos in the app. To delete your account, email us from the address on your account. We then delete your plans, saved trips, follow-up questions, GPS tracks, posts, photos, public name, follows, blocks, reports, notification settings and push tokens, and your sign-in account at Auth0.</p>
+      <p>Some things stay, without anything that identifies you: a post that others replied to stays as a placeholder with no name and no text; your feedback on plans stays as a rating with no comment and no link to you; accepted corrections and contributed tracks stay in the catalog.</p>
+    </section>
+
+    <section>
+      <h2>Your choices</h2>
+      <ul>
+        <li>Turn recommendation history and community contribution on or off in Settings.</li>
+        <li>Turn push notifications off in Settings, or in iOS Settings.</li>
+        <li>Allow or refuse location access in iOS Settings; everything but "near me" works without it.</li>
+        <li>Ask us for a copy of your data, or to correct it, by email.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Children</h2>
+      <p>AlpineWise is not meant for children under 13, and we don't knowingly collect data from them. If you think a child has given us data, email us and we'll delete it.</p>
+    </section>
+
+    <section>
+      <h2>Changes</h2>
+      <p>We'll post any change to this policy on this page, with a new effective date.</p>
+    </section>
+
+    <footer><a href="./">AlpineWise Support</a></footer>
+  </main>
+</body>
+</html>
